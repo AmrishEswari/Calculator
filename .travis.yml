@@ -1,5 +1,6 @@
 language: csharp
 solution: Calculator.sln
+sudo: required
 install:
  - nuget restore Calculator.sln
  - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
