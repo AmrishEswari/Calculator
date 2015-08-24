@@ -2,7 +2,9 @@ language: csharp
 solution: Calculator.sln
 sudo: required
 mono:
- -3.2.8
+  - latest
+  - 3.12.0
+  - 3.10.0
 install:
  - nuget restore Calculator.sln
  - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
