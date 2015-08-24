@@ -15,11 +15,21 @@ namespace Calculator
         public Form1()
         {
             InitializeComponent();
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             textBox3.Text = Convert.ToString(Convert.ToInt32(textBox1.Text) + Convert.ToInt32(textBox2.Text));
         }
+
+        public int Add()
+        {
+            return 4+6;
+        }
+
+       
     }
+
+   
 }
