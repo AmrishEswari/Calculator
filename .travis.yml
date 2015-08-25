@@ -1,13 +1,14 @@
 language: csharp
 solution: Calculator.sln
 sudo: required
-mono:
-  - latest
+mono: 
+  - latest 
 script:
   - xbuild /p:Configuration=Debug Calculator.sln
 before_install:
   - sudo apt-get install nunit-console
 before_script:
   - nuget restore Calculator.sln
-after_script:
+after_script
+
   - nunit-console Calculator.Tests/bin/Release/Calculator.Tests.dll
