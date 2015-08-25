@@ -2,7 +2,7 @@ language: csharp
 solution: Calculator.sln
 sudo: required
 mono:
-  - latest  
+  - latest
 script:
   - xbuild /p:Configuration=Debug Calculator.sln
 before_install:
