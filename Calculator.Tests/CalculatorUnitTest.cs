@@ -15,7 +15,7 @@ namespace Calculator.Tests
         [TestCase]
         public void Add()
         {
-            Calculator.Form1 test = new Calculator.Form1();
+            Test test = new Test();
             int result = test.result(20, 30);
             Assert.AreEqual(50, result);
         }
