@@ -34,7 +34,7 @@ namespace Calculator
         public int result(int a, int b)
         {
 
-            return a + b;
+            return a - b;
         }
 
     }
