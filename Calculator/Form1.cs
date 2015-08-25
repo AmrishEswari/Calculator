@@ -23,9 +23,10 @@ namespace Calculator
             textBox3.Text = Convert.ToString(Convert.ToInt32(textBox1.Text) + Convert.ToInt32(textBox2.Text));
         }
 
-        public int Add()
+        public int result(int a, int b)
         {
-            return 4+6;
+
+            return a + b;
         }
 
        

@@ -11,7 +11,7 @@ namespace CalculatorUnitTest
         public void Add()
         {
             var calculator = new Form1();
-            var result = calculator.Add();
+            var result = calculator.result(10,50);
             Assert.Equals(10, result);
         }
     }
