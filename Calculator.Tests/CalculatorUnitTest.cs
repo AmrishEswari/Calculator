@@ -17,8 +17,9 @@ namespace Calculator.Tests
         {
             Test test = new Test();
             int results = test.result(20, 30);
-            Assert.AreEqual(50, results);
+            Assert.AreEqual(10, results);
         }
+
     }
 }
 
