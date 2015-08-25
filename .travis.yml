@@ -10,4 +10,4 @@ before_install:
 before_script:
   - nuget restore Calculator.sln
 after_script:
-  - nunit-console Calculator.Tests/bin/Release/Calculator.Tests.dll
+  - nunit-console Calculator.Tests/bin/Debug/Calculator.Tests.dll
