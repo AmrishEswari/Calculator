@@ -11,3 +11,7 @@ before_script:
   - nuget restore Calculator.sln
 after_script:
   - nunit-console Calculator.Tests/bin/Debug/Calculator.Tests.dll
+notifications:
+   email:
+    recipients:
+      -amrisheh@gmail.com
