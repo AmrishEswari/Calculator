@@ -5,6 +5,8 @@ mono:
   - latest 
 script:
   - xbuild /p:Configuration=Debug Calculator.sln
+before_install:
+  - sudo apt-get install nunit-console
 after_script:
   - nunit-console Calculator.Tests/bin/Debug/Calculator.Tests.dll
 
