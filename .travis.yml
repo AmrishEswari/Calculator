@@ -9,8 +9,8 @@ before_install:
   - sudo apt-get install nunit-console
 before_script:
   - nunit-console Calculator.Tests/bin/Debug/Calculator.Tests.dll
-after_script:
- - nuget restore Calculator.sln
+  - nuget restore Calculator.sln
+
  
 
 
