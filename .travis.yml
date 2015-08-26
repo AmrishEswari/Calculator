@@ -5,6 +5,7 @@ mono:
   - latest 
 script:
   - xbuild /p:Configuration=Debug Calculator.sln
+after_script:
   - nunit-console Calculator.Tests/bin/Debug/Calculator.Tests.dll
 
   
