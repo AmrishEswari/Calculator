@@ -11,8 +11,4 @@ before_script:
   - nuget restore Calculator.sln
 after_script:
   - nunit-console Calculator.Tests/bin/Debug/Calculator.Tests.dll
-notifications:
-  email:
-    recipients:
-     ehamrish@gmail.com
-  on_success: [always|never|change] # default: always
+
